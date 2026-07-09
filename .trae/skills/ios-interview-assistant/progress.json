@@ -124,6 +124,21 @@
         "解耦策略": { "mastery": 0.0, "status": "pending", "priority": 2 },
         "模块通信": { "mastery": 0.0, "status": "pending", "priority": 2 }
       }
+    },
+    "第三方库": {
+      "mastery": 0.0,
+      "topics": {
+        "AFNetworking": { "mastery": 0.0, "status": "pending", "priority": 3 },
+        "SDWebImage": { "mastery": 0.0, "status": "pending", "priority": 3 },
+        "FMDB": { "mastery": 0.0, "status": "pending", "priority": 2 },
+        "MJRefresh": { "mastery": 0.0, "status": "pending", "priority": 2 },
+        "YYModel": { "mastery": 0.0, "status": "pending", "priority": 2 },
+        "CocoaPods": { "mastery": 0.0, "status": "pending", "priority": 3 },
+        "Masonry": { "mastery": 0.0, "status": "pending", "priority": 2 },
+        "ReactiveCocoa": { "mastery": 0.0, "status": "pending", "priority": 2 },
+        "YYKit": { "mastery": 0.0, "status": "pending", "priority": 1 },
+        "JSPatch": { "mastery": 0.0, "status": "pending", "priority": 1 }
+      }
     }
   },
   "wrong_questions": [],

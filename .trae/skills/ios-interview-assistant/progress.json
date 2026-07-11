@@ -4,15 +4,15 @@
       "mastery": 0.0,
       "topics": {
         "@property属性": { "mastery": 0.04, "status": "learning", "priority": 3 },
-        "atomic与nonatomic": { "mastery": 0.04, "status": "learning", "priority": 3 },
-        "Block与循环引用": { "mastery": 0.0, "status": "pending", "priority": 3 },
+        "Block与循环引用": { "mastery": 0.07, "status": "learning", "priority": 3 },
         "分类与扩展": { "mastery": 0.0, "status": "pending", "priority": 2 },
         "协议与代理": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "消息机制": { "mastery": 0.0, "status": "pending", "priority": 2 },
+        "消息机制": { "mastery": 0.04, "status": "learning", "priority": 2 },
         "SEL与IMP": { "mastery": 0.0, "status": "pending", "priority": 1 },
         "id与instancetype": { "mastery": 0.0, "status": "pending", "priority": 1 },
         "NSCopying与NSMutableCopying": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "初始化方法": { "mastery": 0.0, "status": "pending", "priority": 2 }
+        "初始化方法": { "mastery": 0.0, "status": "pending", "priority": 2 },
+        "KVO与KVC": { "mastery": 0.0, "status": "pending", "priority": 2 }
       }
     },
     "Runtime": {
@@ -30,40 +30,30 @@
     "内存管理": {
       "mastery": 0.0,
       "topics": {
-        "ARC与MRC": { "mastery": 0.0, "status": "pending", "priority": 3 },
-        "引用计数机制": { "mastery": 0.0, "status": "pending", "priority": 3 },
-        "AutoreleasePool": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "weak实现原理": { "mastery": 0.0, "status": "pending", "priority": 3 },
+        "ARC与MRC": { "mastery": 0.06, "status": "learning", "priority": 3 },
+        "weak原理": { "mastery": 0.0, "status": "pending", "priority": 3 },
         "循环引用": { "mastery": 0.0, "status": "pending", "priority": 3 },
-        "__weak与__strong": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "内存泄漏检测": { "mastery": 0.0, "status": "pending", "priority": 1 },
-        "dealloc方法": { "mastery": 0.0, "status": "pending", "priority": 1 }
+        "AutoreleasePool": { "mastery": 0.0, "status": "pending", "priority": 2 },
+        "内存调试": { "mastery": 0.0, "status": "pending", "priority": 1 }
       }
     },
     "多线程": {
       "mastery": 0.0,
       "topics": {
-        "GCD队列": { "mastery": 0.0, "status": "pending", "priority": 3 },
-        "GCD常用API": { "mastery": 0.0, "status": "pending", "priority": 3 },
+        "GCD与多线程": { "mastery": 0.05, "status": "learning", "priority": 3 },
         "NSOperation": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "线程安全": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "各种锁": { "mastery": 0.0, "status": "pending", "priority": 3 },
-        "死锁场景": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "dispatch_barrier": { "mastery": 0.0, "status": "pending", "priority": 1 },
-        "线程通信": { "mastery": 0.0, "status": "pending", "priority": 1 }
+        "线程安全与同步": { "mastery": 0.0, "status": "pending", "priority": 2 }
       }
     },
     "UIKit": {
       "mastery": 0.0,
       "topics": {
-        "视图层级": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "AutoLayout": { "mastery": 0.0, "status": "pending", "priority": 2 },
+        "视图系统": { "mastery": 0.0, "status": "pending", "priority": 2 },
+        "布局与约束": { "mastery": 0.0, "status": "pending", "priority": 2 },
         "事件响应链": { "mastery": 0.0, "status": "pending", "priority": 3 },
         "TableView优化": { "mastery": 0.0, "status": "pending", "priority": 3 },
         "Cell复用原理": { "mastery": 0.0, "status": "pending", "priority": 3 },
-        "UIScrollView": { "mastery": 0.0, "status": "pending", "priority": 1 },
-        "UIViewController生命周期": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "导航控制器": { "mastery": 0.0, "status": "pending", "priority": 1 }
+        "UIViewController生命周期": { "mastery": 0.0, "status": "pending", "priority": 2 }
       }
     },
     "设计模式": {
@@ -96,10 +86,7 @@
         "启动优化": { "mastery": 0.0, "status": "pending", "priority": 3 },
         "内存优化": { "mastery": 0.0, "status": "pending", "priority": 2 },
         "卡顿优化": { "mastery": 0.0, "status": "pending", "priority": 3 },
-        "包体积优化": { "mastery": 0.0, "status": "pending", "priority": 1 },
-        "电量优化": { "mastery": 0.0, "status": "pending", "priority": 1 },
-        "卡顿监控": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "内存泄漏检测": { "mastery": 0.0, "status": "pending", "priority": 2 }
+        "资源优化": { "mastery": 0.0, "status": "pending", "priority": 1 }
       }
     },
     "底层原理": {
@@ -148,7 +135,7 @@
     "nonatomic": "非原子属性，性能更高，需手动保证线程安全",
     "weak": "弱引用，对象释放后自动置nil",
     "Block循环引用": "__weak typeof(self) weakSelf = self; __strong typeof(weakSelf) strongSelf = weakSelf;",
-    "GCD队列": "串行队列(Serial)、并发队列(Concurrent)、主队列(Main)",
+    "GCD与多线程": "串行队列(Serial)、并发队列(Concurrent)、主队列(Main)",
     "RunLoop": "NSRunLoop负责处理事件和消息，保持程序持续运行",
     "KVO": "通过runtime动态生成子类，重写setter方法实现监听",
     "消息转发": "动态方法解析 → 备用接收者 → 完整消息转发",

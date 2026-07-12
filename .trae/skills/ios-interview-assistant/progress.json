@@ -31,9 +31,9 @@
       "mastery": 0.0,
       "topics": {
         "ARC与MRC": { "mastery": 0.06, "status": "learning", "priority": 3 },
-        "weak原理": { "mastery": 0.0, "status": "pending", "priority": 3 },
+        "内存修饰符": { "mastery": 0.02, "status": "learning", "priority": 3 },
         "循环引用": { "mastery": 0.0, "status": "pending", "priority": 3 },
-        "AutoreleasePool": { "mastery": 0.0, "status": "pending", "priority": 2 },
+        "AutoreleasePool": { "mastery": 0.03, "status": "learning", "priority": 2 },
         "内存调试": { "mastery": 0.0, "status": "pending", "priority": 1 }
       }
     },
@@ -50,7 +50,7 @@
       "topics": {
         "视图系统": { "mastery": 0.0, "status": "pending", "priority": 2 },
         "布局与约束": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "事件响应链": { "mastery": 0.0, "status": "pending", "priority": 3 },
+        "事件响应链": { "mastery": 0.04, "status": "learning", "priority": 3 },
         "TableView优化": { "mastery": 0.0, "status": "pending", "priority": 3 },
         "Cell复用原理": { "mastery": 0.0, "status": "pending", "priority": 3 },
         "UIViewController生命周期": { "mastery": 0.0, "status": "pending", "priority": 2 }
@@ -61,18 +61,18 @@
       "topics": {
         "MVC模式": { "mastery": 0.0, "status": "pending", "priority": 3 },
         "MVVM模式": { "mastery": 0.0, "status": "pending", "priority": 3 },
-        "单例模式": { "mastery": 0.0, "status": "pending", "priority": 3 },
+        "单例模式": { "mastery": 0.05, "status": "learning", "priority": 3 },
         "代理模式": { "mastery": 0.0, "status": "pending", "priority": 2 },
         "观察者模式": { "mastery": 0.0, "status": "pending", "priority": 2 },
         "工厂模式": { "mastery": 0.0, "status": "pending", "priority": 1 },
-        "MVC vs MVVM": { "mastery": 0.0, "status": "pending", "priority": 3 }
+        "MVC vs MVVM": { "mastery": 0.05, "status": "learning", "priority": 3 },}
       }
     },
     "网络编程": {
       "mastery": 0.0,
       "topics": {
         "HTTP协议": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "HTTPS原理": { "mastery": 0.0, "status": "pending", "priority": 3 },
+        "HTTPS原理": { "mastery": 0.03, "status": "learning", "priority": 3 },
         "NSURLSession": { "mastery": 0.0, "status": "pending", "priority": 2 },
         "缓存策略": { "mastery": 0.0, "status": "pending", "priority": 2 },
         "网络层封装": { "mastery": 0.0, "status": "pending", "priority": 1 },
@@ -94,9 +94,9 @@
       "topics": {
         "类结构": { "mastery": 0.0, "status": "pending", "priority": 2 },
         "对象内存布局": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "KVO实现原理": { "mastery": 0.0, "status": "pending", "priority": 3 },
-        "KVC原理": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "RunLoop机制": { "mastery": 0.0, "status": "pending", "priority": 3 },
+        "KVO实现原理": { "mastery": 0.05, "status": "learning", "priority": 3 },
+        "KVC原理": { "mastery": 0.03, "status": "learning", "priority": 2 },
+        "RunLoop机制": { "mastery": 0.04, "status": "learning", "priority": 3 },
         "RunLoop应用": { "mastery": 0.0, "status": "pending", "priority": 2 },
         "dyld加载过程": { "mastery": 0.0, "status": "pending", "priority": 1 }
       }

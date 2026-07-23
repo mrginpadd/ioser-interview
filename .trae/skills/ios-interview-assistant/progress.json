@@ -5,26 +5,26 @@
       "topics": {
         "@property属性": { "mastery": 0.04, "status": "learning", "priority": 3 },
         "Block与循环引用": { "mastery": 0.07, "status": "learning", "priority": 3 },
-        "分类与扩展": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "协议与代理": { "mastery": 0.0, "status": "pending", "priority": 2 },
+        "分类与扩展": { "mastery": 0.03, "status": "learning", "priority": 2 },
+        "协议与代理": { "mastery": 0.08, "status": "learning", "priority": 2 },
         "消息机制": { "mastery": 0.04, "status": "learning", "priority": 2 },
-        "SEL与IMP": { "mastery": 0.0, "status": "pending", "priority": 1 },
-        "id与instancetype": { "mastery": 0.0, "status": "pending", "priority": 1 },
-        "NSCopying与NSMutableCopying": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "初始化方法": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "KVO与KVC": { "mastery": 0.0, "status": "pending", "priority": 2 }
+        "SEL与IMP": { "mastery": 0.07, "status": "learning", "priority": 1 },
+        "id与instancetype": { "mastery": 0.07, "status": "learning", "priority": 1 },
+        "NSCopying与NSMutableCopying": { "mastery": 0.06, "status": "learning", "priority": 2 },
+        "初始化方法": { "mastery": 0.03, "status": "learning", "priority": 2 },
+        "KVO与KVC": { "mastery": 0.04, "status": "learning", "priority": 2 }
       }
     },
     "Runtime": {
       "mastery": 0.0,
       "topics": {
-        "消息转发机制": { "mastery": 0.0, "status": "pending", "priority": 3 },
-        "动态方法解析": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "关联对象": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "Method Swizzling": { "mastery": 0.0, "status": "pending", "priority": 3 },
-        "类对象与元类": { "mastery": 0.0, "status": "pending", "priority": 1 },
-        "runtime API": { "mastery": 0.0, "status": "pending", "priority": 1 },
-        "isa指针": { "mastery": 0.0, "status": "pending", "priority": 2 }
+        "消息转发机制": { "mastery": 0.08, "status": "learning", "priority": 3 },
+        "动态方法解析": { "mastery": 0.07, "status": "learning", "priority": 2 },
+        "关联对象": { "mastery": 0.03, "status": "learning", "priority": 2 },
+        "Method Swizzling": { "mastery": 0.06, "status": "learning", "priority": 3 },
+        "类对象与元类": { "mastery": 0.03, "status": "learning", "priority": 1 },
+        "runtime API": { "mastery": 0.03, "status": "learning", "priority": 1 },
+        "isa指针": { "mastery": 0.03, "status": "learning", "priority": 2 }
       }
     },
     "内存管理": {
@@ -32,28 +32,28 @@
       "topics": {
         "ARC与MRC": { "mastery": 0.06, "status": "learning", "priority": 3 },
         "内存修饰符": { "mastery": 0.02, "status": "learning", "priority": 3 },
-        "循环引用": { "mastery": 0.0, "status": "pending", "priority": 3 },
+        "循环引用": { "mastery": 0.075, "status": "learning", "priority": 3 },
         "AutoreleasePool": { "mastery": 0.03, "status": "learning", "priority": 2 },
-        "内存调试": { "mastery": 0.0, "status": "pending", "priority": 1 }
+        "内存调试": { "mastery": 0.04, "status": "learning", "priority": 1 }
       }
     },
     "多线程": {
       "mastery": 0.0,
       "topics": {
         "GCD与多线程": { "mastery": 0.05, "status": "learning", "priority": 3 },
-        "NSOperation": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "线程安全与同步": { "mastery": 0.0, "status": "pending", "priority": 2 }
+        "NSOperation": { "mastery": 0.03, "status": "learning", "priority": 2 },
+        "线程安全与同步": { "mastery": 0.03, "status": "learning", "priority": 2 }
       }
     },
     "UIKit": {
       "mastery": 0.0,
       "topics": {
-        "视图系统": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "布局与约束": { "mastery": 0.0, "status": "pending", "priority": 2 },
+        "视图系统": { "mastery": 0.05, "status": "learning", "priority": 2 },
+        "布局与约束": { "mastery": 0.03, "status": "learning", "priority": 2 },
         "事件响应链": { "mastery": 0.04, "status": "learning", "priority": 3 },
         "TableView优化": { "mastery": 0.0, "status": "pending", "priority": 3 },
         "Cell复用原理": { "mastery": 0.0, "status": "pending", "priority": 3 },
-        "UIViewController生命周期": { "mastery": 0.0, "status": "pending", "priority": 2 }
+        "UIViewController生命周期": { "mastery": 0.05, "status": "learning", "priority": 2 }
       }
     },
     "设计模式": {
@@ -62,28 +62,28 @@
         "MVC模式": { "mastery": 0.0, "status": "pending", "priority": 3 },
         "MVVM模式": { "mastery": 0.0, "status": "pending", "priority": 3 },
         "单例模式": { "mastery": 0.05, "status": "learning", "priority": 3 },
-        "代理模式": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "观察者模式": { "mastery": 0.0, "status": "pending", "priority": 2 },
+        "代理模式": { "mastery": 0.07, "status": "learning", "priority": 2 },
+        "观察者模式": { "mastery": 0.05, "status": "learning", "priority": 2 },
         "工厂模式": { "mastery": 0.0, "status": "pending", "priority": 1 },
-        "MVC vs MVVM": { "mastery": 0.05, "status": "learning", "priority": 3 },}
+        "MVC vs MVVM": { "mastery": 0.05, "status": "learning", "priority": 3 }
       }
     },
     "网络编程": {
       "mastery": 0.0,
       "topics": {
-        "HTTP协议": { "mastery": 0.0, "status": "pending", "priority": 2 },
+        "HTTP协议": { "mastery": 0.05, "status": "learning", "priority": 2 },
         "HTTPS原理": { "mastery": 0.03, "status": "learning", "priority": 3 },
-        "NSURLSession": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "缓存策略": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "网络层封装": { "mastery": 0.0, "status": "pending", "priority": 1 },
-        "断点续传": { "mastery": 0.0, "status": "pending", "priority": 1 },
-        "请求并发控制": { "mastery": 0.0, "status": "pending", "priority": 1 }
+        "NSURLSession": { "mastery": 0.03, "status": "learning", "priority": 2 },
+        "缓存策略": { "mastery": 0.03, "status": "learning", "priority": 2 },
+        "网络层封装": { "mastery": 0.03, "status": "learning", "priority": 1 },
+        "断点续传": { "mastery": 0.03, "status": "learning", "priority": 1 },
+        "请求并发控制": { "mastery": 0.03, "status": "learning", "priority": 1 }
       }
     },
     "性能优化": {
       "mastery": 0.0,
       "topics": {
-        "启动优化": { "mastery": 0.0, "status": "pending", "priority": 3 },
+        "启动优化": { "mastery": 0.05, "status": "learning", "priority": 2 },
         "内存优化": { "mastery": 0.0, "status": "pending", "priority": 2 },
         "卡顿优化": { "mastery": 0.0, "status": "pending", "priority": 3 },
         "资源优化": { "mastery": 0.0, "status": "pending", "priority": 1 }
@@ -92,13 +92,13 @@
     "底层原理": {
       "mastery": 0.0,
       "topics": {
-        "类结构": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "对象内存布局": { "mastery": 0.0, "status": "pending", "priority": 2 },
+        "类结构": { "mastery": 0.03, "status": "learning", "priority": 2 },
+        "对象内存布局": { "mastery": 0.03, "status": "learning", "priority": 2 },
         "KVO实现原理": { "mastery": 0.05, "status": "learning", "priority": 3 },
         "KVC原理": { "mastery": 0.03, "status": "learning", "priority": 2 },
         "RunLoop机制": { "mastery": 0.04, "status": "learning", "priority": 3 },
         "RunLoop应用": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "dyld加载过程": { "mastery": 0.0, "status": "pending", "priority": 1 }
+        "dyld加载过程": { "mastery": 0.03, "status": "learning", "priority": 1 }
       }
     },
     "架构设计": {
@@ -115,16 +115,16 @@
     "第三方库": {
       "mastery": 0.0,
       "topics": {
-        "AFNetworking": { "mastery": 0.0, "status": "pending", "priority": 3 },
-        "SDWebImage": { "mastery": 0.0, "status": "pending", "priority": 3 },
-        "FMDB": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "MJRefresh": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "YYModel": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "CocoaPods": { "mastery": 0.0, "status": "pending", "priority": 3 },
-        "Masonry": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "ReactiveCocoa": { "mastery": 0.0, "status": "pending", "priority": 2 },
-        "YYKit": { "mastery": 0.0, "status": "pending", "priority": 1 },
-        "JSPatch": { "mastery": 0.0, "status": "pending", "priority": 1 }
+        "AFNetworking": { "mastery": 0.03, "status": "learning", "priority": 3 },
+        "SDWebImage": { "mastery": 0.03, "status": "learning", "priority": 3 },
+        "FMDB": { "mastery": 0.03, "status": "learning", "priority": 2 },
+        "MJRefresh": { "mastery": 0.07, "status": "learning", "priority": 2 },
+        "YYModel": { "mastery": 0.07, "status": "learning", "priority": 2 },
+        "CocoaPods": { "mastery": 0.06, "status": "learning", "priority": 3 },
+        "Masonry": { "mastery": 0.08, "status": "learning", "priority": 2 },
+        "ReactiveCocoa": { "mastery": 0.06, "status": "learning", "priority": 2 },
+        "YYKit": { "mastery": 0.03, "status": "learning", "priority": 1 },
+        "JSPatch": { "mastery": 0.03, "status": "learning", "priority": 1 }
       }
     }
   },

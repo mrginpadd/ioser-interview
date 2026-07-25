@@ -30,11 +30,12 @@
     "内存管理": {
       "mastery": 0.0,
       "topics": {
-        "ARC与MRC": { "mastery": 0.06, "status": "learning", "priority": 3 },
+        "ARC与MRC": { "mastery": 0.1, "status": "learning", "priority": 3 },
         "内存修饰符": { "mastery": 0.02, "status": "learning", "priority": 3 },
         "循环引用": { "mastery": 0.075, "status": "learning", "priority": 3 },
         "AutoreleasePool": { "mastery": 0.03, "status": "learning", "priority": 2 },
-        "内存调试": { "mastery": 0.04, "status": "learning", "priority": 1 }
+        "内存调试": { "mastery": 0.04, "status": "learning", "priority": 1 },
+        "引用计数机制": { "mastery": 0.07, "status": "learning", "priority": 3 }
       }
     },
     "多线程": {
@@ -59,8 +60,8 @@
     "设计模式": {
       "mastery": 0.0,
       "topics": {
-        "MVC模式": { "mastery": 0.0, "status": "pending", "priority": 3 },
-        "MVVM模式": { "mastery": 0.0, "status": "pending", "priority": 3 },
+        "MVC模式": { "mastery": 0.07, "status": "learning", "priority": 3 },
+        "MVVM模式": { "mastery": 0.07, "status": "learning", "priority": 3 },
         "单例模式": { "mastery": 0.05, "status": "learning", "priority": 3 },
         "代理模式": { "mastery": 0.07, "status": "learning", "priority": 2 },
         "观察者模式": { "mastery": 0.05, "status": "learning", "priority": 2 },
@@ -85,7 +86,7 @@
       "topics": {
         "启动优化": { "mastery": 0.05, "status": "learning", "priority": 2 },
         "内存优化": { "mastery": 0.07, "status": "learning", "priority": 2 },
-        "卡顿优化": { "mastery": 0.0, "status": "pending", "priority": 3 },
+        "卡顿优化": { "mastery": 0.07, "status": "learning", "priority": 3 },
         "资源优化": { "mastery": 0.0, "status": "pending", "priority": 1 }
       }
     },
@@ -144,5 +145,5 @@
   "current_difficulty": "easy",
   "total_answered": 0,
   "total_correct": 0,
-  "last_update": "2026-07-09"
+  "last_update": "2026-07-25"
 }

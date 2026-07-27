@@ -1,0 +1,136 @@
+{
+  "knowledge_graph": {
+    "综合应用能力C类": {
+      "mastery": 0.0,
+      "topics": {
+        "科技文献阅读": {
+          "mastery": 0.0,
+          "status": "pending",
+          "priority": 3,
+          "subtopics": {
+            "文献主旨概括": { "mastery": 0.0, "status": "pending" },
+            "关键词提取": { "mastery": 0.0, "status": "pending" },
+            "观点分析": { "mastery": 0.0, "status": "pending" },
+            "细节理解": { "mastery": 0.0, "status": "pending" }
+          }
+        },
+        "论证评价": {
+          "mastery": 0.0,
+          "status": "pending",
+          "priority": 3,
+          "subtopics": {
+            "逻辑错误识别": { "mastery": 0.0, "status": "pending" },
+            "论证有效性分析": { "mastery": 0.0, "status": "pending" },
+            "论据评估": { "mastery": 0.0, "status": "pending" },
+            "推理过程评价": { "mastery": 0.0, "status": "pending" }
+          }
+        },
+        "科技实务": {
+          "mastery": 0.0,
+          "status": "pending",
+          "priority": 2,
+          "subtopics": {
+            "数据处理": { "mastery": 0.0, "status": "pending" },
+            "图表分析": { "mastery": 0.0, "status": "pending" },
+            "科技报告写作": { "mastery": 0.0, "status": "pending" },
+            "方案设计": { "mastery": 0.0, "status": "pending" }
+          }
+        },
+        "议论文写作": {
+          "mastery": 0.0,
+          "status": "pending",
+          "priority": 3,
+          "subtopics": {
+            "立意与标题": { "mastery": 0.0, "status": "pending" },
+            "结构布局": { "mastery": 0.0, "status": "pending" },
+            "论证方法": { "mastery": 0.0, "status": "pending" },
+            "语言表达": { "mastery": 0.0, "status": "pending" }
+          }
+        }
+      }
+    },
+    "职业能力倾向测验C类": {
+      "mastery": 0.0,
+      "topics": {
+        "常识判断": {
+          "mastery": 0.0,
+          "status": "pending",
+          "priority": 2,
+          "subtopics": {
+            "物理常识": { "mastery": 0.0, "status": "pending" },
+            "化学常识": { "mastery": 0.0, "status": "pending" },
+            "生物常识": { "mastery": 0.0, "status": "pending" },
+            "人文常识": { "mastery": 0.0, "status": "pending" },
+            "时事政治": { "mastery": 0.0, "status": "pending" }
+          }
+        },
+        "言语理解与表达": {
+          "mastery": 0.0,
+          "status": "pending",
+          "priority": 3,
+          "subtopics": {
+            "片段阅读": { "mastery": 0.0, "status": "pending" },
+            "篇章阅读": { "mastery": 0.0, "status": "pending" },
+            "逻辑填空": { "mastery": 0.0, "status": "pending" },
+            "语句排序": { "mastery": 0.0, "status": "pending" }
+          }
+        },
+        "数量关系": {
+          "mastery": 0.0,
+          "status": "pending",
+          "priority": 3,
+          "subtopics": {
+            "工程问题": { "mastery": 0.0, "status": "pending" },
+            "行程问题": { "mastery": 0.0, "status": "pending" },
+            "几何问题": { "mastery": 0.0, "status": "pending" },
+            "概率问题": { "mastery": 0.0, "status": "pending" },
+            "数字推理": { "mastery": 0.0, "status": "pending" }
+          }
+        },
+        "判断推理": {
+          "mastery": 0.0,
+          "status": "pending",
+          "priority": 3,
+          "subtopics": {
+            "图形推理": { "mastery": 0.0, "status": "pending" },
+            "定义判断": { "mastery": 0.0, "status": "pending" },
+            "类比推理": { "mastery": 0.0, "status": "pending" },
+            "逻辑判断": { "mastery": 0.0, "status": "pending" }
+          }
+        },
+        "资料分析": {
+          "mastery": 0.0,
+          "status": "pending",
+          "priority": 3,
+          "subtopics": {
+            "增长率计算": { "mastery": 0.0, "status": "pending" },
+            "比重分析": { "mastery": 0.0, "status": "pending" },
+            "倍数与平均数": { "mastery": 0.0, "status": "pending" },
+            "综合分析": { "mastery": 0.0, "status": "pending" }
+          }
+        }
+      }
+    }
+  },
+  "exam_mode": {
+    "enabled": true,
+    "exam_date": "2026-08-01",
+    "focus_modules": ["科技实务", "论证评价"],
+    "description": "8月1日笔试，聚焦科技实务和论证评价"
+  },
+  "wrong_questions": [],
+  "current_difficulty": "easy",
+  "total_answered": 0,
+  "total_correct": 0,
+  "last_update": "2026-07-26",
+  "quick_reference": {
+    "增长率": "增长率=增长量÷基期值×100%",
+    "比重": "比重=部分值÷整体值×100%",
+    "工程问题": "工作总量=工作效率×工作时间",
+    "行程问题": "路程=速度×时间",
+    "概率": "概率=所求情况数÷总情况数",
+    "论证方法": "举例论证、道理论证、对比论证、比喻论证",
+    "议论文结构": "引论-本论-结论",
+    "逻辑错误": "偷换概念、自相矛盾、以偏概全、循环论证"
+  }
+}
